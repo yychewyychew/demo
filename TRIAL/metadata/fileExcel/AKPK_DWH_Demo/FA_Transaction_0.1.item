@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_e0tcYND3Ee6qO_7ZLk3sLQ" name="FA_Transaction" id="_e0s1UND3Ee6qO_7ZLk3sLQ" dataPackage="_e0tcYdD3Ee6qO_7ZLk3sLQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/kelvi/OneDrive/00_KV_PC/00_Quandatics_2023/QM_Presales/AKPK/AKPK DWH/[AKPK] Sample Data.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Customer" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Transaction:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_e0tcYdD3Ee6qO_7ZLk3sLQ" name="default" dataManager="_e0tcYND3Ee6qO_7ZLk3sLQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_e0tcYtD3Ee6qO_7ZLk3sLQ" id="_Xa4IEND3Ee6qO_7ZLk3sLQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e0tcY9D3Ee6qO_7ZLk3sLQ" label="Cust_ID" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e0tcZND3Ee6qO_7ZLk3sLQ" label="Appointment_Date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e0tcZdD3Ee6qO_7ZLk3sLQ" label="Appointment_Time" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e0tcZtD3Ee6qO_7ZLk3sLQ" label="Appointment_Service" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e0tcZ9D3Ee6qO_7ZLk3sLQ" label="Appointment_Branch" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e0tcaND3Ee6qO_7ZLk3sLQ" label="Appointment_Method" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e0tcadD3Ee6qO_7ZLk3sLQ" label="Appointment_Status" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e0tcatD3Ee6qO_7ZLk3sLQ" label="Appointment_Financial_advisor" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e0tca9D3Ee6qO_7ZLk3sLQ" label="Appointment_Remarks" length="64" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

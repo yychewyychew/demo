@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_uC7o0cr-Ee6An-nGq5iqJg" name="FE_Purchase" dataPackage="_uC7o0sr-Ee6An-nGq5iqJg" Server="Localhost 127.0.0.1" FilePath="C:/Users/kelvi/OneDrive - Asia Pacific University/0 Kelvin's PC/Quandatics 2023/QM_Presales/AKPK/AKPK DWH/AKPK_Dataset_Individual.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="FE - Purchases" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="FE - Purchases:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_uC7o0sr-Ee6An-nGq5iqJg" name="default" dataManager="_uC7o0cr-Ee6An-nGq5iqJg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_uC7o08r-Ee6An-nGq5iqJg" id="_o8NmoMr-Ee6An-nGq5iqJg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uC7o1Mr-Ee6An-nGq5iqJg" label="Cust_ID" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uC7o1cr-Ee6An-nGq5iqJg" label="Program_Receipt_No" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uC7o1sr-Ee6An-nGq5iqJg" label="Purchased_Item" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uC7o18r-Ee6An-nGq5iqJg" label="Purchase_Status" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uC7o2Mr-Ee6An-nGq5iqJg" label="Payment_Status" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uC7o2cr-Ee6An-nGq5iqJg" label="Payment_Date" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uC7o2sr-Ee6An-nGq5iqJg" label="Delivery_Status" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

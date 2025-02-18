@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_wXJnINDxEe6qO_7ZLk3sLQ" name="AKPK_Sample_Data_Transaction" dataPackage="_wXJnIdDxEe6qO_7ZLk3sLQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/kelvi/OneDrive - Asia Pacific University/0 Kelvin's PC/Quandatics 2023/QM_Presales/AKPK/AKPK DWH/[AKPK] Sample Data.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Transaction" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Transaction:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+    <sheetColumns>U</sheetColumns>
+    <sheetColumns>V</sheetColumns>
+    <sheetColumns>W</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_wXJnIdDxEe6qO_7ZLk3sLQ" name="default" dataManager="_wXJnINDxEe6qO_7ZLk3sLQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wXJnItDxEe6qO_7ZLk3sLQ" id="_eUXXINDxEe6qO_7ZLk3sLQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnI9DxEe6qO_7ZLk3sLQ" label="No" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnJNDxEe6qO_7ZLk3sLQ" label="Name" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnJdDxEe6qO_7ZLk3sLQ" label="IC" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnJtDxEe6qO_7ZLk3sLQ" label="Financial_Services_Type" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnJ9DxEe6qO_7ZLk3sLQ" label="Program_enrolled" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnKNDxEe6qO_7ZLk3sLQ" label="Fees_Structure" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnKdDxEe6qO_7ZLk3sLQ" label="Program_Category" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnKtDxEe6qO_7ZLk3sLQ" label="Date_enrolled" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnK9DxEe6qO_7ZLk3sLQ" label="Program_Status" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnLNDxEe6qO_7ZLk3sLQ" label="Program_Receipt_No" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnLdDxEe6qO_7ZLk3sLQ" label="Purchased_Item" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnLtDxEe6qO_7ZLk3sLQ" label="Purchase_Status" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnL9DxEe6qO_7ZLk3sLQ" label="Payment_Status" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnMNDxEe6qO_7ZLk3sLQ" label="Payment_Date" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnMdDxEe6qO_7ZLk3sLQ" label="Delivery_Status" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnMtDxEe6qO_7ZLk3sLQ" label="Appointment_Date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnM9DxEe6qO_7ZLk3sLQ" label="Appointment_Time" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnNNDxEe6qO_7ZLk3sLQ" label="Appointment_Service" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnNdDxEe6qO_7ZLk3sLQ" label="Appointment_Branch" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnNtDxEe6qO_7ZLk3sLQ" label="Appointment_Method" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnN9DxEe6qO_7ZLk3sLQ" label="Appointment_Status" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnONDxEe6qO_7ZLk3sLQ" label="Appointment_Financial_advisor" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wXJnOdDxEe6qO_7ZLk3sLQ" label="Appointment_Remarks" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

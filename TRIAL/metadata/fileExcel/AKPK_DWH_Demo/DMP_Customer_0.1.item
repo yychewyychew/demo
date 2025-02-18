@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_3RRAocr-Ee6An-nGq5iqJg" name="DMP_Customer" id="_3RRAoMr-Ee6An-nGq5iqJg" dataPackage="_3RRAosr-Ee6An-nGq5iqJg" Server="Localhost 127.0.0.1" FilePath="C:/Users/kelvi/OneDrive - Asia Pacific University/0 Kelvin's PC/Quandatics 2023/QM_Presales/AKPK/AKPK DWH/AKPK_Dataset_Individual.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="DMP - Customer" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="DMP - Customer:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_3RRAosr-Ee6An-nGq5iqJg" name="default" dataManager="_3RRAocr-Ee6An-nGq5iqJg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3RRAo8r-Ee6An-nGq5iqJg" id="_upKiYMr-Ee6An-nGq5iqJg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRApMr-Ee6An-nGq5iqJg" label="Cust_ID" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRApcr-Ee6An-nGq5iqJg" label="Name" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRApsr-Ee6An-nGq5iqJg" label="IC_No" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRAp8r-Ee6An-nGq5iqJg" label="Email" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRAqMr-Ee6An-nGq5iqJg" label="Gender" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRAqcr-Ee6An-nGq5iqJg" label="Address" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRAqsr-Ee6An-nGq5iqJg" label="Date_of_Birth" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRAq8r-Ee6An-nGq5iqJg" label="Phone_Number" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRArMr-Ee6An-nGq5iqJg" label="Marital_Status" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRArcr-Ee6An-nGq5iqJg" label="Race" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRArsr-Ee6An-nGq5iqJg" label="Employment" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRAr8r-Ee6An-nGq5iqJg" label="Education" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRAsMr-Ee6An-nGq5iqJg" label="No_of_Dependant" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3RRAscr-Ee6An-nGq5iqJg" label="Annual_Salary" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

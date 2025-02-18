@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_SNvqocr-Ee6An-nGq5iqJg" name="FE_Customer" dataPackage="_SNvqosr-Ee6An-nGq5iqJg" Server="Localhost 127.0.0.1" FilePath="C:/Users/kelvi/OneDrive - Asia Pacific University/0 Kelvin's PC/Quandatics 2023/QM_Presales/AKPK/AKPK DWH/AKPK_Dataset_Individual.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="FE - Customer" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="FE - Customer:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_SNvqosr-Ee6An-nGq5iqJg" name="default" dataManager="_SNvqocr-Ee6An-nGq5iqJg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SNvqo8r-Ee6An-nGq5iqJg" id="_JIzfYMr-Ee6An-nGq5iqJg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqpMr-Ee6An-nGq5iqJg" label="Cust_ID" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqpcr-Ee6An-nGq5iqJg" label="Name" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqpsr-Ee6An-nGq5iqJg" label="IC_No" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqp8r-Ee6An-nGq5iqJg" label="Email" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqqMr-Ee6An-nGq5iqJg" label="Gender" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqqcr-Ee6An-nGq5iqJg" label="Race" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqqsr-Ee6An-nGq5iqJg" label="Malaysian__Y_N" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqq8r-Ee6An-nGq5iqJg" label="Employment" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqrMr-Ee6An-nGq5iqJg" label="Education" length="42" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqrcr-Ee6An-nGq5iqJg" label="Address_1" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqrsr-Ee6An-nGq5iqJg" label="State" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqr8r-Ee6An-nGq5iqJg" label="City" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SNvqsMr-Ee6An-nGq5iqJg" label="Postcode" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
